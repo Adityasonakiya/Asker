@@ -158,7 +158,7 @@ function showYesImage() {
     setTimeout(() => {
         img.style.opacity = "0";
         setTimeout(() => img.remove(), 500);
-    }, 5000);
+    }, 8000);
 }
 
 document.getElementById("yesBtn3").addEventListener("click", () => {
